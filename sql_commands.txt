@@ -1,0 +1,7 @@
+1. SELECT * FROM players WHERE team='NYK';
+2. SELECT * FROM players WHERE age<26 AND team='IND';
+3. SELECT * FROM players ORDER BY points DESC;
+
+5. SELECT AVG(age) FROM players;
+6. SELECT AVG(age) FROM players WHERE team='OKC';
+7. SELECT AVG(age) FROM players WHERE games>40;
